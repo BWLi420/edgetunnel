@@ -1,8 +1,8 @@
-﻿
+
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
-let proxyIP = '';
+let userID = '64366a3d-69bc-4106-a332-4e25130e489a';
+let proxyIP = 'proxyip.sg.fxxk.dedyn.io';
 let DNS64Server = '';
 //let sub = '';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
@@ -23,8 +23,80 @@ let go2Socks5s = [
     '*cloudatacdn.com',
     '*.loadshare.org',
 ];
-let addresses = [];
-let addressesapi = [];
+let addresses = [
+    'time.is',
+    'ip.sb',
+    'bestcf.onecf.eu.org',
+    'bestproxy.onecf.eu.org',
+    'cfip.xxxxxxxx.tk',
+    'proxy.xxxxxxxx.tk',
+    'cf.zhetengsha.eu.org',
+    'acjp2.cloudflarest.link:2053',
+    'achk.cloudflarest.link',
+    'acsg.cloudflarest.link:2053',
+    'acsg3.cloudflarest.link:2053',
+    'xn--b6gac.eu.org',
+    'cdn-all.xn--b6gac.eu.org',
+    'cdn-b100.xn--b6gac.eu.org',
+    'time.cloudflare.com',
+    'shopify.com',
+    'icook.hk',
+    'icook.tw',
+    'japan.com',
+    'malaysia.com',
+    'russia.com',
+    'singapore.com',
+    'skk.moe',
+    'visa.cn',
+    'www.visa.com',
+    'www.visa.com.sg',
+    'www.visa.com.hk',
+    'www.visa.com.tw',
+    'www.visa.co.jp',
+    'www.visakorea.com',    
+    'www.gco.gov.qa',
+    'www.gov.se',
+    'www.gov.ua',
+    'www.digitalocean.com',
+    'www.csgo.com',
+    'www.shopify.com',
+    'www.whoer.net',
+    'www.whatismyip.com',
+    'www.ipget.net',
+    'www.hugedomains.com',
+    'www.udacity.com',
+    'www.4chan.org',
+    'www.okcupid.com',
+    'www.glassdoor.com',
+    'www.udemy.com',
+    'alejandracaiccedo.com',
+    'nc.gocada.co',
+    'log.bpminecraft.com',
+    'www.boba88slot.com',
+    'gur.gov.ua',
+    'www.zsu.gov.ua',
+    'www.iakeys.com',
+    'www.d-555.com',
+    'www.wto.org:8443',
+    'fbi.gov',
+    'chatgpt.com:2087',
+    'yx.887141.xyz',
+    '8.889288.xyz',
+    'cfip.1323123.xyz',
+    'cf.515188.xyz',
+    'cf-st.annoy.eu.org',
+    'cf.0sm.com',
+    'cf.877771.xyz',
+    'cf.345673.xyz',
+];
+let addressesapi = [
+	'https://addressesapi.090227.xyz/ct',
+	'https://addressesapi.090227.xyz/cmcc',
+	'https://addressesapi.090227.xyz/cmcc-ipv6',
+	'https://addressesapi.090227.xyz/CloudFlareYes',
+	'https://addressesapi.090227.xyz/ip.164746.xyz',
+	'https://ipdb.api.030101.xyz/?type=bestcf&country=true'
+];
 let addressesnotls = [];
 let addressesnotlsapi = [];
 let addressescsv = [];
@@ -7187,4 +7259,5 @@ function config_Html(token = "test", proxyhost = "") {
 </html>`;
 
     return html;
+
 }
